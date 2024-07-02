@@ -44,12 +44,12 @@ function App() {
           style={{ display: "none" }}
           onChange={(e) => setFile(e.target.files[0])}
         />
-
         <a href={result} target='_blank' rel="noopener">{result}</a> 
       </div>
     </div>
     </div>
   );
 }
+
 
 export default App;
